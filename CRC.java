@@ -14,6 +14,7 @@ public class CRC {
 		
 		String ans = generateCRC(n,p);
 		System.out.println("Data to Send : "+ans);
+		System.out.println("CRC : "+p);
 		
 		errorCheck(generateCRC(n,p),p);
 		
